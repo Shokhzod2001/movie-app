@@ -1,15 +1,12 @@
 import { Text, View } from "react-native";
+import "./global.css";
 
 export default function Index() {
   return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <Text>Hi Shelby Fighting to learn React Native</Text>
+    <View className="flex-1 items-center justify-center bg-blue-600">
+      <Text className="text-white text-3xl font-bold">
+        Tailwind is Working!
+      </Text>
     </View>
   );
 }
